@@ -223,6 +223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
+	background-size: 3vw;
 }
 ul.cat li {
 	display: inline-block;
