@@ -227,27 +227,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
-	background-size: 3vw;
+	
 }
 ul.cat li {
 	display: inline-block;
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 ol.type li a {
+	opacity: 0.3;
 	background: #414a52;
 	color: #54d0dd;
 	padding: 12px 24px;
 	text-transform: uppercase;
 }
 ol.type li a.active {
+	opacity: 0.3;
 	background: #54d0dd;
 	color: #414a52;
 }
 ol.type li a:hover {
-	background: #54d0dd;
+	background: #fff;
 	color: #414a52;
 }
 .isotope-item {
